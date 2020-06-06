@@ -10,7 +10,7 @@ interface MoviesApi {
 
         @GET("posts/1")
         // we put suspend function because corotinues ( we'll learn it later )
-        suspend fun getmovies() : Response<List<Posts>>
+        suspend fun getmovies() : Response<List<Movies>>
 
     companion object {
 
